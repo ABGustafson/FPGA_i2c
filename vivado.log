@@ -1,0 +1,600 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Jul  5 12:47:11 2023
+# Process ID: 1376
+# Current directory: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24260 C:\HBK\dev\Xilinx_sketch\fpga_i2c_v002\fpga_i2c_v002.xpr
+# Log file: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/vivado.log
+# Journal file: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002\vivado.jou
+# Running On: 87XQGG3, OS: Windows, CPU Frequency: 1805 MHz, CPU Physical cores: 4, Host memory: 16889 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Xilinx_sketch/fpga_i2c_v002' since last save.
+INFO: [filemgmt 56-1] Board Part Repository Path: Directory not found as 'C:/HBK/dev/Users/agustafson/AppData/Roaming/Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store'; using path 'C:/Users/agustafson/AppData/Roaming/Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-151] The current board 'digilentinc.com::arty-a7-35:1.1' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz_0' (customized with software release 2020.1.1) has a different revision in the IP Catalog. * This IP has board specific outputs. Current project board 'digilentinc.com:arty-a7-35:part0:1.1' and the board 'unset' used to customize the IP 'clk_wiz_0' do not match. * Current project part 'xc7a35ticsg324-1L' and the part 'xc7a35tcsg324-1' used to customize the IP 'clk_wiz_0' do not match.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:12 . Memory (MB): peak = 1147.418 ; gain = 373.684
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+WARNING: [Project 1-577] IP run clk_wiz_0_synth_1 is available but is out of date. Since the IP is locked, the synthesis checkpoint cannot be updated. The out-of-date checkpoint will be used and it may result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Synthesis target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+
+WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Implementation target. Since these IPs are locked, no update to the output products can be done. 
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+
+WARNING: [Project 1-576] IP 'C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' in run clk_wiz_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Wed Jul  5 12:48:09 2023] Launched clk_wiz_0_synth_1, synth_1...
+Run output will be captured here:
+clk_wiz_0_synth_1: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/clk_wiz_0_synth_1/runme.log
+synth_1: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/synth_1/runme.log
+[Wed Jul  5 12:48:09 2023] Launched impl_1...
+Run output will be captured here: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Jul  5 12:52:05 2023] Launched synth_1...
+Run output will be captured here: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/synth_1/runme.log
+[Wed Jul  5 12:52:05 2023] Launched impl_1...
+Run output will be captured here: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/utils_1/imports/synth_1/myI2cEchoTest.dcp with file C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/synth_1/myI2cEchoTest.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Jul  5 13:09:13 2023] Launched synth_1...
+Run output will be captured here: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/synth_1/runme.log
+[Wed Jul  5 13:09:13 2023] Launched impl_1...
+Run output will be captured here: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Jul  5 13:12:08 2023] Launched synth_1...
+Run output will be captured here: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/synth_1/runme.log
+[Wed Jul  5 13:12:08 2023] Launched impl_1...
+Run output will be captured here: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Jul  5 13:15:02 2023] Launched synth_1...
+Run output will be captured here: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/synth_1/runme.log
+[Wed Jul  5 13:15:02 2023] Launched impl_1...
+Run output will be captured here: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-01:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1180.867 ; gain = 3.488
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319A2CF8EA
+open_hw_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 3352.594 ; gain = 2171.727
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.runs/impl_1/myI2cEchoTest.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'Simulation_of_i2c'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Simulation_of_i2c' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Simulation_of_i2c_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj Simulation_of_i2c_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/new/Debounce_I2C.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'debounce'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/new/I2C_component.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'I2C_minion'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Simulation_of_i2c'
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Simulation_of_i2c_behav xil_defaultlib.Simulation_of_i2c xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Simulation_of_i2c_behav xil_defaultlib.Simulation_of_i2c xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture arch of entity xil_defaultlib.I2C_minion [\I2C_minion(minion_addr="0000011...]
+Compiling architecture behavioral of entity xil_defaultlib.simulation_of_i2c
+Built simulation snapshot Simulation_of_i2c_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 3435.141 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Simulation_of_i2c_behav -key {Behavioral:sim_1:Functional:Simulation_of_i2c} -tclbatch {Simulation_of_i2c.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source Simulation_of_i2c.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: Simulation object /Simulation_of_i2c/seed1 was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /Simulation_of_i2c/seed2 was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+WARNING: Simulation object /Simulation_of_i2c/ENDSIM was not traceable in the design for the following reason:
+Vivado Simulator does not yet support tracing of VHDL variables.
+# run 1000ns
+Note: 
+Time: 0 ps  Iteration: 0  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ------------------------------------------------------------
+Time: 0 ps  Iteration: 0  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- I2C_minion_TB_001_ideal ------------------
+Time: 0 ps  Iteration: 0  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ------------------------------------------------------------
+Time: 0 ps  Iteration: 0  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing a single write ------------------
+Time: 0 ps  Iteration: 0  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance Simulation_of_i2c.DUV.pll.inst.mmcm_adv_inst 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Simulation_of_i2c_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 3443.195 ; gain = 23.492
+run all
+Warning: test: 0 not passed
+Time: 17610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing a single write ------------------
+Time: 17610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing repeated writes -----------------
+Time: 35230 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 1 not passed
+Time: 70490 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 3 not passed
+Time: 105730 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 5 not passed
+Time: 140970 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 7 not passed
+Time: 176210 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 9 not passed
+Time: 211450 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 11 not passed
+Time: 246690 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 13 not passed
+Time: 281930 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 15 not passed
+Time: 317170 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 17 not passed
+Time: 352410 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 19 not passed
+Time: 387650 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 21 not passed
+Time: 422890 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 23 not passed
+Time: 458130 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 25 not passed
+Time: 493370 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 27 not passed
+Time: 528610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 29 not passed
+Time: 563850 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 31 not passed
+Time: 599090 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 33 not passed
+Time: 634330 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 35 not passed
+Time: 669570 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 37 not passed
+Time: 704810 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 39 not passed
+Time: 740050 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 41 not passed
+Time: 775290 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 43 not passed
+Time: 810530 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 45 not passed
+Time: 845770 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 47 not passed
+Time: 881010 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 49 not passed
+Time: 916250 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 51 not passed
+Time: 951490 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 53 not passed
+Time: 986730 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 55 not passed
+Time: 1021970 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 57 not passed
+Time: 1057210 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 59 not passed
+Time: 1092450 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 61 not passed
+Time: 1127690 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 63 not passed
+Time: 1162930 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 65 not passed
+Time: 1198170 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 67 not passed
+Time: 1233410 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 69 not passed
+Time: 1268650 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 71 not passed
+Time: 1303890 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 73 not passed
+Time: 1339130 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 75 not passed
+Time: 1374370 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 77 not passed
+Time: 1409610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 79 not passed
+Time: 1444850 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 81 not passed
+Time: 1480090 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 83 not passed
+Time: 1515330 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 85 not passed
+Time: 1550570 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 87 not passed
+Time: 1585810 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 89 not passed
+Time: 1621050 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 91 not passed
+Time: 1656290 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 93 not passed
+Time: 1691530 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 95 not passed
+Time: 1726770 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 97 not passed
+Time: 1762010 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 99 not passed
+Time: 1797250 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 101 not passed
+Time: 1832490 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 103 not passed
+Time: 1867730 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 105 not passed
+Time: 1902970 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 107 not passed
+Time: 1938210 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 109 not passed
+Time: 1973450 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 111 not passed
+Time: 2008690 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 113 not passed
+Time: 2043930 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 115 not passed
+Time: 2079170 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 117 not passed
+Time: 2114410 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 119 not passed
+Time: 2149650 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 121 not passed
+Time: 2184890 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 123 not passed
+Time: 2220130 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 125 not passed
+Time: 2255370 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 127 not passed
+Time: 2290610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing repeated reads ------------------
+Time: 2290610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing quick write --------------------
+Time: 4566450 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing wrong addresses -----------------
+Time: 4635010 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: -> The following 3 tests should all fail
+Time: 4635010 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: [0] ---------------
+Time: 4635010 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: I2C: target/minion address mismatch (data is being sent to another minion).
+Time: 4642630 ns  Iteration: 3  Process: /Simulation_of_i2c/DUV/line__199  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/new/I2C_component.vhd
+Note: No ACK received: expected '0'
+Time: 4642970 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: [1] ---------------
+Time: 4644890 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: I2C: target/minion address mismatch (data is being sent to another minion).
+Time: 4652510 ns  Iteration: 3  Process: /Simulation_of_i2c/DUV/line__199  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/new/I2C_component.vhd
+Note: No ACK received: expected '0'
+Time: 4652850 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: [2] ---------------
+Time: 4654770 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: I2C: target/minion address mismatch (data is being sent to another minion).
+Time: 4662390 ns  Iteration: 3  Process: /Simulation_of_i2c/DUV/line__199  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/new/I2C_component.vhd
+Note: No ACK received: expected '0'
+Time: 4662730 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: Simulation end...
+Time: 4664670 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: 
+Time: 4664670 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: [Unisim MMCME2_ADV-21] Input CLKIN1 is stopped at time           4664745275. Reset is required when input clock returns. Instance Simulation_of_i2c.DUV.pll.inst.mmcm_adv_inst 
+run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:55 . Memory (MB): peak = 3454.051 ; gain = 2.590
+run all
+run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:55 . Memory (MB): peak = 3511.117 ; gain = 0.941
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+Note: 
+Time: 0 ps  Iteration: 0  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ------------------------------------------------------------
+Time: 0 ps  Iteration: 0  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- I2C_minion_TB_001_ideal ------------------
+Time: 0 ps  Iteration: 0  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ------------------------------------------------------------
+Time: 0 ps  Iteration: 0  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing a single write ------------------
+Time: 0 ps  Iteration: 0  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance Simulation_of_i2c.DUV.pll.inst.mmcm_adv_inst 
+Warning: test: 0 not passed
+Time: 17610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing a single write ------------------
+Time: 17610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing repeated writes -----------------
+Time: 35230 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 1 not passed
+Time: 70490 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 3 not passed
+Time: 105730 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 5 not passed
+Time: 140970 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 7 not passed
+Time: 176210 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 9 not passed
+Time: 211450 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 11 not passed
+Time: 246690 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 13 not passed
+Time: 281930 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 15 not passed
+Time: 317170 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 17 not passed
+Time: 352410 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 19 not passed
+Time: 387650 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 21 not passed
+Time: 422890 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 23 not passed
+Time: 458130 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 25 not passed
+Time: 493370 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 27 not passed
+Time: 528610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 29 not passed
+Time: 563850 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 31 not passed
+Time: 599090 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 33 not passed
+Time: 634330 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 35 not passed
+Time: 669570 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 37 not passed
+Time: 704810 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 39 not passed
+Time: 740050 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 41 not passed
+Time: 775290 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 43 not passed
+Time: 810530 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 45 not passed
+Time: 845770 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 47 not passed
+Time: 881010 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 49 not passed
+Time: 916250 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 51 not passed
+Time: 951490 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 53 not passed
+Time: 986730 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 55 not passed
+Time: 1021970 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 57 not passed
+Time: 1057210 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 59 not passed
+Time: 1092450 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 61 not passed
+Time: 1127690 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 63 not passed
+Time: 1162930 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 65 not passed
+Time: 1198170 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 67 not passed
+Time: 1233410 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 69 not passed
+Time: 1268650 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 71 not passed
+Time: 1303890 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 73 not passed
+Time: 1339130 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 75 not passed
+Time: 1374370 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 77 not passed
+Time: 1409610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 79 not passed
+Time: 1444850 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 81 not passed
+Time: 1480090 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 83 not passed
+Time: 1515330 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 85 not passed
+Time: 1550570 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 87 not passed
+Time: 1585810 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 89 not passed
+Time: 1621050 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 91 not passed
+Time: 1656290 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 93 not passed
+Time: 1691530 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 95 not passed
+Time: 1726770 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 97 not passed
+Time: 1762010 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 99 not passed
+Time: 1797250 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 101 not passed
+Time: 1832490 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 103 not passed
+Time: 1867730 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 105 not passed
+Time: 1902970 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 107 not passed
+Time: 1938210 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 109 not passed
+Time: 1973450 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 111 not passed
+Time: 2008690 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 113 not passed
+Time: 2043930 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 115 not passed
+Time: 2079170 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 117 not passed
+Time: 2114410 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 119 not passed
+Time: 2149650 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 121 not passed
+Time: 2184890 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 123 not passed
+Time: 2220130 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 125 not passed
+Time: 2255370 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: writing test: 127 not passed
+Time: 2290610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing repeated reads ------------------
+Time: 2290610 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing quick write --------------------
+Time: 4566450 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: ----------------- Testing wrong addresses -----------------
+Time: 4635010 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: -> The following 3 tests should all fail
+Time: 4635010 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: [0] ---------------
+Time: 4635010 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: I2C: target/minion address mismatch (data is being sent to another minion).
+Time: 4642630 ns  Iteration: 3  Process: /Simulation_of_i2c/DUV/line__199  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/new/I2C_component.vhd
+Note: No ACK received: expected '0'
+Time: 4642970 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: [1] ---------------
+Time: 4644890 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: I2C: target/minion address mismatch (data is being sent to another minion).
+Time: 4652510 ns  Iteration: 3  Process: /Simulation_of_i2c/DUV/line__199  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/new/I2C_component.vhd
+Note: No ACK received: expected '0'
+Time: 4652850 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: [2] ---------------
+Time: 4654770 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: I2C: target/minion address mismatch (data is being sent to another minion).
+Time: 4662390 ns  Iteration: 3  Process: /Simulation_of_i2c/DUV/line__199  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sources_1/new/I2C_component.vhd
+Note: No ACK received: expected '0'
+Time: 4662730 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: Simulation end...
+Time: 4664670 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Note: 
+Time: 4664670 ns  Iteration: 1  Process: /Simulation_of_i2c/TESTS  File: C:/HBK/dev/Xilinx_sketch/fpga_i2c_v002/fpga_i2c_v002.srcs/sim_1/new/Simulation_of_i2c.vhd
+Warning: [Unisim MMCME2_ADV-21] Input CLKIN1 is stopped at time           4664745275. Reset is required when input clock returns. Instance Simulation_of_i2c.DUV.pll.inst.mmcm_adv_inst 
+run: Time (s): cpu = 00:00:28 ; elapsed = 00:01:49 . Memory (MB): peak = 3514.125 ; gain = 3.008
+restart
